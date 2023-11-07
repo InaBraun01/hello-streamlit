@@ -21,7 +21,7 @@ from streamlit.hello.utils import show_code
 
 
 def animation_demo() -> None:
-
+    """
     # Interactive Streamlit elements, like these sliders, return their value.
     # This gives you an extremely simple interaction model.
     iterations = st.sidebar.slider("Level of detail", 2, 20, 10, 1)
@@ -35,7 +35,7 @@ def animation_demo() -> None:
     # for them using st.empty()
     frame_text = st.sidebar.empty()
     image = st.empty()
-
+    """
     m, n, s = 960, 640, 400
     x = np.linspace(-m / s, m / s, num=m).reshape((1, m))
     y = np.linspace(-n / s, n / s, num=n).reshape((n, 1))

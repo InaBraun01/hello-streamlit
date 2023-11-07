@@ -1,4 +1,4 @@
-# Copyright (c) Streamlit Inc. (2018-2022) Snowflake Inc. (2022)
+o# Copyright (c) Streamlit Inc. (2018-2022) Snowflake Inc. (2022)
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -72,7 +72,7 @@ def animation_demo() -> None:
 
 st.set_page_config(page_title="Animation Demo", page_icon="hello")
 st.markdown("# Animation Demo hello")
-st.sidebar.header("Animation Demo")
+st.sidebar.header("Animation Demo hello")
 st.write(
     """This app shows how you can use Streamlit to build cool animations.
 It displays an animated fractal based on the the Julia Set. Use the slider

@@ -75,7 +75,11 @@ st.set_page_config(page_title="Animation Demo hello", page_icon="hello")
 st.markdown("# Animation Demo hello")
 st.sidebar.header("Animation Demo hello")
 
-
+st.write(
+    """This app shows how you can use Streamlit to build cool animations.
+It displays an animated fractal based on the the Julia Set. Use the slider
+to tune different parameters."""
+)
 
 animation_demo()
 

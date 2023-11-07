@@ -67,11 +67,10 @@ def animation_demo() -> None:
     # Streamlit widgets automatically run the script from top to bottom. Since
     # this button is not connected to any other logic, it just causes a plain
     # rerun.
-    #Hello
     st.button("Re-run")
 
 
-st.set_page_config(page_title="Animation Demo", page_icon="hello")
+st.set_page_config(page_title="Animation Demo hello", page_icon="hello")
 st.markdown("# Animation Demo hello")
 st.sidebar.header("Animation Demo hello")
 st.write(
